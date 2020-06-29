@@ -1,0 +1,40 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7445) (preloaded format=pdflatex 2020.6.28)  28 JUN 2020 14:22
+entering extended mode
+**X
+
+("/Users/ignatlevagin/Library/Application Support/MiKTeX/texmfs/install/tex/lat
+ex/tools/.tex"
+! Interruption.
+<to be read again> 
+                   \begingroup 
+l.1 
+    %%
+? 
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> File ignored)
+*exit
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> e
+     xit
+? X
+ 
+Here is how much of TeX's memory you used:
+ 19 strings out of 482723
+ 703 string characters out of 2946233
+ 234106 words of memory out of 3000000
+ 15888 multiletter control sequences out of 15000+200000
+ 532338 words of font info for 24 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 12i,0n,15p,82b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -7,7 +7,7 @@
 \usepackage{graphicx}                    % Enable pdflatex
 \usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
 \usepackage{xcolor}
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 \usepackage{hyperref}
 \usepackage{multicol}
 \usepackage[margin=0.7in]{geometry}
@@ -52,59 +52,63 @@
 \begin{document}
 
 \begin{multicols}{2}
-\MyName{FirstName LastName}
-\MyLocation{City, Country}
+\MyName{Ignat Levagin}
+\MyName{Data Scientist}
+\MyLocation{Saint Petersburg, Russia}
 \columnbreak
-\MyContact{\faEnvelope : your@email.com}
-\MyContact{\faGithub : \href{https://www.github.com/}{github.com/}}
-\MyContact{\faLinkedin : \href{https://www.linkedin.com/in/}{linkedin.com/in/}}
+\MyContact{\faEnvelope : ignatlevagin@gmail.com}
+\MyContact{\faMobile : +7 (911) 140-22-57 (UTC+3)}
+\MyContact{\faGithub : \href{https://www.github.com/ignatl}{github.com/ignatl}}
+\MyContact{\faLinkedin : \href{https://www.linkedin.com/in/ignatlevagin}{linkedin.com/in/ignatlevagin}}
+\MyContact{\faKaggle : \href{https://www.kaggle.com/ignatlevagin}{kaggle.com/ignatlevagin}}
 \end{multicols}
+
 
 \NewPart{Qualifications}{}
 
-
 \begin{itemize}
-  \item[]{\SkillsEntry{Skill Set 1}{...}}
-  \item[]{\SkillsEntry{Skill Set 2}{...}}
-  \item[]{\SkillsEntry{Skill Set 3}{...}}
+  \item[]{\SkillsEntry{Python}{Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn}}
+  \item[]{\SkillsEntry{ML}{Regression, Random Forest, Gradient Boosting, k-NN}}
+  \item[]{\SkillsEntry{Tools}{SQL, Git, Linux, Jenkins, Jira}}
 \end{itemize}
 
+
+\NewPart{Courses \& Specializations}{}
+
+\begin{itemize}
+  \item{\href{https://www.coursera.org/specializations/machine-learning-data-analysis}{Machine Learning (MIPS, Yandex) (Coursera)}}
+  \item{\href{https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie}{Introduction to machine learning (Coursera)}}
+  \item{\href{https://mlcourse.ai}{Open Machine Learning Course mlcourse.ai}}
+  \item{\href{https://classroom.udacity.com/courses/ud827}{Intro to Descriptive Statistics (udacity)}}
+  \item{\href{https://classroom.udacity.com/courses/ud201}{Intro to Inferential Statistics (udacity)}}
+  \item{\href{https://classroom.udacity.com/courses/ud170}{Intro to Data Analysis}}
+\end{itemize}
 
 \NewPart{Work experience}{}
 
 \ExperienceEntry
-{Position 1}
-{Jan 2019-Jan 2019}
-{CompanyName 1 $\vert$ City, Country}
+{Performance testing engineer}
+{Mar 2018-Jan 2020}
+{DINS $\vert$ Saint Petersburg, Russia}
 {	
 \begin{itemize}
-	\item{Responsibilities}
-	\item{Responsibilities}
-	\item{Responsibilities}
+	\item{Developed, used and maintained a pipeline for preparing accounts for testing. The tool pulls test accounts from Oracle DB, sends REST requests that changed settings and saves phone numbers in a specific format. Used technologies: Python, SQL, Jenkins. The tool allowed to reduce testing time.}
+	\item{Collected and analyzed the statistics of phone calls with PRO and changed the method of calculating the load.}
+	\item{Performed load test of telephony system (SIPp), collected and analyzed test results, found and reported big amount of performance bugs.}
 \end{itemize}
 }
 
 \ExperienceEntry
-{Position 2}
-{Jan 2019-Jan 2019}
-{CompanyName 2 $\vert$ City, Country}
+{Performance testing engineer}
+{Jul 2016-Mar 2018}
+{Sberbank Technology $\vert$ Saint Petersburg, Russia}
 {	
 \begin{itemize}
-	\item{Responsibilities}
-	\item{Responsibilities}
-	\item{Responsibilities}
-\end{itemize}
-}
-
-\ExperienceEntry
-{Position 3}
-{Jan 2019-Jan 2019}
-{CompanyName 3 $\vert$ City, Country}
-{	
-\begin{itemize}
-	\item{Responsibilities}
-	\item{Responsibilities}
-	\item{Responsibilities}
+	\item{Developed load profiles based on the statistics provided.}
+	\item{Developed test scripts using HP LoadRunner (Java/C).}
+	\item{Checked the operability of the testing environment.}
+	\item{Conducted performance testing.}
+	\item{Collected and analyzed test results.}
 \end{itemize}
 }
 
@@ -112,17 +116,10 @@
 \NewPart{Education}{}
 
 \ExperienceEntry
-{DegreeName}
-{2019 - 2019}
-{\href{https://university.website}
-{University Name} $\vert$ City, Country}
-{}
-
-\ExperienceEntry
-{DegreeName}
-{2019 - 2019}
-{\href{https://university.website}
-{University Name} $\vert$ City, Country}
+{Process Automation Engineer}
+{2008 - 2013}
+{\href{http://vstu.ru}
+{VSTU} $\vert$ Volgograd, Russia}
 {}
 
 
